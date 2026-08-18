@@ -2,8 +2,9 @@ import { useState } from "react";
 import { cours } from "@/data/bleach";
 
 export function EpisodeList() {
-  const [active, setActive] = useState(cours[0].id);
-  const cour = cours.find((c) => c.id === active)!;
+  const [active, setActive] = useState(cours[0]!.id);
+  const cour = cours.find((c) => c.id === active) ?? cours[0]!;
+
 
   return (
     <div>
