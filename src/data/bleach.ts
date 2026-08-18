@@ -95,7 +95,7 @@ export const characters = [
 export const info = [
   { label: "Título", value: "Bleach: Sennen Kessen-hen" },
   { label: "Estúdio", value: "Studio Pierrot" },
-  { label: "Autor", value: "Tite Kubo" },
+  { label: "Autor", value: "Wesley Neri" },
   { label: "Direção", value: "Tomohisa Taguchi" },
   { label: "Estreia", value: "10 de outubro de 2022" },
   { label: "Episódios", value: "52 (4 cours)" },

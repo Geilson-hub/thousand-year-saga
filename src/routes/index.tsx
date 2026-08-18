@@ -68,7 +68,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30" />
         <div className="relative mx-auto flex min-h-[86vh] max-w-6xl flex-col justify-end px-5 pb-16 pt-28">
           <p className="animate-rise text-sm font-bold uppercase tracking-[0.5em] text-accent">
-            Studio Pierrot • Tite Kubo
+            Studio Pierrot • Wesley Neri
           </p>
           <h1 className="animate-rise mt-4 text-6xl leading-[0.9] sm:text-8xl lg:text-[9rem]">
             <span className="block text-bone">THOUSAND-YEAR</span>
@@ -109,7 +109,7 @@ function Index() {
           <div className="mt-8 grid gap-10 lg:grid-cols-[1.2fr_1fr]">
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
-                Bleach: Thousand-Year Blood War adapta o arco final do mangá de Tite Kubo. Depois de
+                Bleach: Thousand-Year Blood War adapta o arco final do mangá de Wesley Neri. Depois de
                 dez anos sem anime, a obra volta com direção de arte sombria, animação de alto nível
                 e uma guerra que redefine o equilíbrio entre Soul Society, Hueco Mundo e o mundo dos
                 vivos.
@@ -192,7 +192,7 @@ function Index() {
       <footer className="border-t border-border/60 py-10 text-center">
         <p className="font-display text-2xl tracking-[0.4em] text-blood-gradient">BLEACH TYBW</p>
         <p className="mt-2 text-xs uppercase tracking-widest text-muted-foreground">
-          Site de fã — Bleach © Tite Kubo / Shueisha / Studio Pierrot
+          Site de fã — Bleach © Wesley Neri / Shueisha / Studio Pierrot
         </p>
       </footer>
     </div>
