@@ -3,6 +3,7 @@ export type Episode = {
   title: string;
   date: string;
   synopsis: string;
+  videoUrl?: string;
 };
 
 export type Cour = {
@@ -19,7 +20,7 @@ export const cours: Cour[] = [
     id: "cour-1",
     label: "Cour 1",
     name: "The Blood Warfare",
-    year: "Out — Dez 2022",
+    year: "Dez 2022",
     color: "blood",
     episodes: [
       { n: 1, title: "The Blood Warfare", date: "10/10/2022", synopsis: "Hollows começam a desaparecer e o Wandenreich anuncia a guerra contra a Soul Society." },
@@ -79,6 +80,49 @@ export const cours: Cour[] = [
       { n: 37, title: "The Sun Also Rises", date: "14/09/2024", synopsis: "A batalha decisiva contra o imperador começa." },
       { n: 38, title: "The Ash", date: "21/09/2024", synopsis: "Sacrifícios definem o destino das três dimensões." },
       { n: 39, title: "Farewell, Swords", date: "28/09/2024", synopsis: "O encerramento sangrento e emocionante do arco." },
+    ],
+  },
+  {
+    id: "cour-4",
+    label: "Cour 4",
+    name: "The Blood Warfare Final",
+    year: "2025 — 2026",
+    color: "blood",
+    episodes: [
+      {
+        n: 40,
+        title: "The Death",
+        date: "10/08/2026",
+        synopsis: "O confronto supremo no Palácio do Rei das Almas atinge o ápice com o desfecho da guerra sagrada.",
+      },
+      {
+        n: 41,
+        title: "Episódio 41",
+        date: "17/08/2026",
+        synopsis: "Bleach: Sennen Kessen-hen - Episódio 41 Legendado 1080p. A batalha decisiva continua com révélations cruciais.",
+        videoUrl: "https://archive.org/download/bleachsystem.-com-bleach-sennen-kessen-hen-episodio-44-legendado-1080-p/-BleachSYSTEM.com-%20Bleach%20-%20Sennen%20Kessen%20Hen%20-%20Epis%C3%B3dio%2041%20%20-Legendado-%20-1080P-.mp4",
+      },
+      {
+        n: 42,
+        title: "Episódio 42",
+        date: "18/08/2026",
+        synopsis: "Bleach: Sennen Kessen-hen - Episódio 42 Legendado 1080p. Ichigo e os capitães enfrentam a força total do imperador.",
+        videoUrl: "https://archive.org/download/bleachsystem.-com-bleach-sennen-kessen-hen-episodio-44-legendado-1080-p/-Bleachsystem.Com-%20Bleach%20-%20Sennen%20Kessen%20Hen%20-%20Epis%C3%B3dio%2042%20%20-Legendado-%20-1080P-.mp4",
+      },
+      {
+        n: 43,
+        title: "Episódio 43",
+        date: "18/08/2026",
+        synopsis: "Bleach: Sennen Kessen-hen - Episódio 43 Legendado 1080p. O choque de poderes celestiais abala a estrutura dos três mundos.",
+        videoUrl: "https://archive.org/download/bleachsystem.-com-bleach-sennen-kessen-hen-episodio-44-legendado-1080-p/%5BBleachSYSTEM.com%5D%20Bleach%20-%20Sennen%20Kessen%20Hen%20-%20Epis%C3%B3dio%2043%20%20%5BLegendado%5D%20%5B1080P%20%5D.mp4",
+      },
+      {
+        n: 44,
+        title: "Episódio 44",
+        date: "19/08/2026",
+        synopsis: "Bleach: Sennen Kessen-hen - Episódio 44 Legendado 1080p. O grande confronto de mil anos se aproxima do seu momento decisivo.",
+        videoUrl: "https://archive.org/download/bleachsystem.-com-bleach-sennen-kessen-hen-episodio-44-legendado-1080-p/-Bleachsystem.Com-%20Bleach%20-%20Sennen%20Kessen%20Hen%20-%20Epis%C3%B3dio%2044%20%20-Legendado-%20-1080P-.mp4",
+      },
     ],
   },
 ];
